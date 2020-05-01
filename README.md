@@ -7,3 +7,14 @@
 ```python
 pip install -r requirements.txt
 ```
+
+## 打包
+打包pdf片段识别工具
+```python
+pyinstaller --paths=Deja_Vu_Sans_Mono.ttf -F -w pdf_crop_scan.py
+```
+
+打包pdf转长图工具
+```python
+pyinstaller  --paths=Deja_Vu_Sans_Mono.ttf -F -w  pdf_to_long_png.py
+```
